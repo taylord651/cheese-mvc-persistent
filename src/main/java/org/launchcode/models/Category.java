@@ -1,4 +1,4 @@
-package org.launchcode.models.data;
+package org.launchcode.models;
 
 import org.launchcode.models.Cheese;
 
