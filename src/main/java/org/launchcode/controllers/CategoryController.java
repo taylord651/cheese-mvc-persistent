@@ -41,7 +41,7 @@ public class CategoryController {
     }
 
     @RequestMapping(value = "add", method = RequestMethod.POST)
-    public String add(Model model, @ModelAttribute @Valid Category category, Errors errors) {
+    public String addCategories(Model model, @ModelAttribute @Valid Category category, Errors errors) {
 
         if (errors.hasErrors()) {
             model.addAttribute("title", "Add Category");
